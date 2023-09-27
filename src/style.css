@@ -1,0 +1,68 @@
+/* Set base styles for the entire webpage body */
+body {
+  font-family: Poppins, sans-serif;  /* Use the 'Poppins' font with a fallback to sans-serif */
+  background-color: #f4f4f4;  /* Light gray background color */
+  margin: 0;  /* Remove default margin */
+  padding: 0;  /* Remove default padding */
+  display: flex;  /* Use flexbox for layout */
+  justify-content: center;  /* Horizontally center content */
+  align-items: center;  /* Vertically center content */
+  min-height: 100vh;  /* Minimum height to fill the viewport */
+}
+
+/* Style for the main content container */
+.container {
+  background-color: white;  /* White background color */
+  border-radius: 5px;  /* Rounded corners */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.4);  /* Shadow for a subtle elevation */
+  padding: 20px;  /* Inner padding */
+  text-align: center;  /* Center text within the container */
+}
+
+/* Style for the main heading */
+h1 {
+  margin-bottom: 20px;  /* Add space below the heading */
+}
+
+/* Style for text input fields */
+input[type="text"] {
+  padding: 8px;  /* Padding for input text */
+  width: 60%;  /* Set the input width */
+  border: 1px solid #ccc;  /* Border with light gray color */
+  border-radius: 4px;  /* Rounded corners */
+}
+
+/* Style for buttons */
+button {
+  padding: 8px 15px;  /* Padding for buttons */
+  background-color: #007bff;  /* Blue background color */
+  color: white;  /* Text color */
+  border: none;  /* Remove button border */
+  border-radius: 4px;  /* Rounded corners */
+  cursor: pointer;  /* Show pointer cursor on hover */
+}
+
+/* Style for unordered lists (e.g., task list) */
+ul {
+  list-style: none;  /* Remove default list bullets */
+  padding: 0;  /* Remove list padding */
+}
+
+/* Style for list items (e.g., individual tasks) */
+li {
+  display: flex;  /* Use flexbox to arrange content */
+  align-items: center;  /* Vertically center content */
+  justify-content: space-between;  /* Space between content */
+  padding: 8px;  /* Padding for list items */
+  border-bottom: 1px solid #ccc;  /* Bottom border with light gray color */
+}
+
+/* Style for the last list item (no bottom border) */
+li:last-child {
+  border-bottom: none;  /* Remove bottom border for the last item */
+}
+
+/* Style for completed tasks (with strikethrough) */
+.completed {
+  text-decoration: line-through;  /* Apply a strikethrough text decoration */
+}
